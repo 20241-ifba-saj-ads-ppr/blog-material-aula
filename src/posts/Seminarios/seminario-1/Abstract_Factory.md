@@ -79,3 +79,65 @@ MagoFactory --> Cajado : cria >
 
 ```
 </figure>
+
+## Yuri Pêpe
+</figure>
+
+```mermaid
+classDiagram
+    class Monstro {
+        <<interface>>
+        +atacar() void
+    }
+
+    class Arma {
+        <<interface>>
+        +usar() void
+    }
+
+    class Orc {
+        +atacar() void
+    }
+
+    class Elfo {
+        +atacar() void
+    }
+
+    class Espada {
+        +usar() void
+    }
+
+    class Arco {
+        +usar() void
+    }
+
+    class MonstroFactory {
+        <<interface>>
+        +criarMonstro() Monstro
+        +criarArma() Arma
+    }
+
+    class OrcFactory {
+        +criarMonstro() Monstro
+        +criarArma() Arma
+    }
+
+    class ElfoFactory {
+        +criarMonstro() Monstro
+        +criarArma() Arma
+    }
+
+    Monstro <|.. Orc
+    Monstro <|.. Elfo
+    Arma <|.. Espada
+    Arma <|.. Arco
+    MonstroFactory <|-- OrcFactory
+    MonstroFactory <|-- ElfoFactory
+
+    OrcFactory o-- Orc : "cria"
+    OrcFactory o-- Espada : "cria"
+    ElfoFactory o-- Elfo : "cria"
+    ElfoFactory o-- Arco : "cria"
+```
+</figure>
+
