@@ -23,3 +23,20 @@ author: GuiSamp, RiansFonseca
 
 <!-- @include: ../../../includes/seminario-1-RiansFonseca/README-SINGLETON.md -->
 
+
+## João Augusto
+
+<figure>
+  @startuml
+class GameController {
+    - static GameController instance = null
+    - GameController() 
+    + static GameController getInstance() 
+    + void startGame() 
+    + void endGame() 
+}
+
+GameController --> GameController : "getInstance()"
+@enduml
+
+</figure>
