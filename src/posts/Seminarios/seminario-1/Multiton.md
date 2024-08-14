@@ -65,3 +65,26 @@ public enum Configuracao {
     
 }
 ```
+
+# Pedro Carlos
+```mermaid
+classDiagram
+    class GoogleOneConta {
+        +String accessarToken
+        +String recarregarToken
+        +String clienteId
+        +String clienteSegredo
+        +conectar(): void
+        +disconectar(): void
+        +recarregarToken(): void
+    }
+
+    class GoogleOneContasMultiton {
+        -Map<String, GoogleOneConta> instances
+        -final int LIMITE_CONTA = 5
+        +getInstance(String key): GoogleOneConta
+        +destruirInstance(String key): void
+    }
+
+    GoogleOneContaMultiton --> GoogleGoogleOneConta : "1..5" 
+```
