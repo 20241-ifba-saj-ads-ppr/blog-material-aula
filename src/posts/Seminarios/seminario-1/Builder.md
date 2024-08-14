@@ -115,3 +115,46 @@ PizzaBuilder --> Pizza : build()
 ```
 <figcaption> Exemplo de builder </figcaption>
 </figure>
+
+## Pedro Carlos
+
+```mermaid
+---
+title: Exemplo Estrutura
+---
+classDiagram
+    class CasaDirector {
+        <<Interface>>
+        construirParedes()
+        construirPortas()
+        construirTelhado()
+        construirAreaExterna()
+    }
+
+    class Arquiteto {
+        builder : CasaBuilder
+        construirCasa()
+    }
+
+    class CasaComPiscinaBuilder {
+        construirParedes()
+        construirPortas()
+        construirTelhado()
+        construirAreaExterna()
+        Casa em que a área externa é uma piscina
+    }
+ 
+    class CasaComJardimBuilder {
+        construirParedes()
+        construirPortas()
+        construirTelhado()
+        construirAreaExterna()
+        Casa em que a área externa é um jardim
+    }
+
+    Arquiteto --> CasaDirector
+    CasaDirector <|-- CasaComPiscinaBuilder
+    CasaDirector <|-- CasaComJardimBuilder
+```
+<figcaption> Exemplo de builder </figcaption>
+</figure>
