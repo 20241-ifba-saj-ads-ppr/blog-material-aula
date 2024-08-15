@@ -23,3 +23,43 @@ author: GabrielMreira, Redror
 [@Redror](https://github.com/Redror)
 
 <!-- @include: ../../../includes/seminario-1-Redror/README.md -->
+
+
+## Yuri Pêpe
+
+<figure>
+  
+```mermaid
+classDiagram
+    class Produto {
+        <<interface>>
+        + clonar() Produto
+        + exibirDetalhes() void
+    }
+
+    class ProdutoEletronico {
+        - nome: String
+        - modelo: String
+        + clonar() Produto
+        + exibirDetalhes() void
+    }
+
+    class ProdutoDigital {
+        - nome: String
+        - tipo: String
+        + clonar() Produto
+        + exibirDetalhes() void
+    }
+
+    class Cliente {
+        + main(args: String[]) void
+    }
+
+    Produto <|-- ProdutoEletronico
+    Produto <|-- ProdutoDigital
+
+    Cliente o-- Produto : "usa"
+
+
+```
+</figure>
