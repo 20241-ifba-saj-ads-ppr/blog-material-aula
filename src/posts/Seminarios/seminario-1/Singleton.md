@@ -23,3 +23,13 @@ author: GuiSamp, RiansFonseca
 
 <!-- @include: ../../../includes/seminario-1-RiansFonseca/README-SINGLETON.md -->
 
+## Pedro Carlos
+```mermaid
+classDiagram
+    class SolTerrestre {
+        -static Instance Sol
+        +brilhar()
+        +getInstance Sol
+        -Sol()
+    }
+```
