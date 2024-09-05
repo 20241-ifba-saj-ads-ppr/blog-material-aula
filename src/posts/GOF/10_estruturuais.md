@@ -50,7 +50,7 @@ O [Decorator] descreve como acrescentar dinamicamente responsabilidades ao objet
 | Bridge           | <ul><li>Brenda Gabriela Martinez Araújo ✅</li><li>Yuri Pêpe do Espírito Santo✅</li></ul> |
 | Composite        | <ul><li>Gabriel Ferreira Lima Brito </li></ul>                                         |
 | Decorator        | <ul><li>Gabriel Moreira Bispo Santos</li></ul>                                         |
-| Facade           | <ul><li>Guilherme Sampaio Oliveira</li></ul>                                           |
+| Facade           | <ul><li>Guilherme Sampaio Oliveira✅</li></ul>                                           |
 | Front Controller | <ul><li>João Augusto Moura Peixoto De Jesus✅</li><li>Rian Silva da Fonseca</li></ul>    |
 | Flyweight        | <ul><li>Luis Miguel De Jesus Oliveira</li></ul>                                        |
 | Proxy            | <ul><li>Pedro Carlos de Gois Barros Santos✅</li></ul>                                   |
