@@ -21,9 +21,20 @@ A apresentação de cada um dos padrões utilizados no framework devem seguir a 
 - Participantes (lincando com código do framework)
 - código do framework
 
-## Entregas
+## Para entrega
+
+- Para a entrega final do projeto, deve ser feito um código do framework com todos os padrões descritos integrados. 
+- Deve ser feito códigos de utilização desse framework para a construção dos jogos, e esses códigos devem ficar em pacotes separados.
+  - Construir as classes para o jogo de Batalha de Tanques é um exemplo de utilização do framework
+
+No documento do projeto, deve ser descrito passo-a-passo como o desenvolvedor deve construir um jogo novo.
+
+## Repositórios
 - [Parcial 1](https://classroom.github.com/a/RM1yLssV)
 - [Parcial 2](https://classroom.github.com/a/Qk3Q6DXl)
+- Final 
+
+
 
 
 <!-- @include: ../includes/bib.md -->
