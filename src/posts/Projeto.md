@@ -31,7 +31,7 @@ No documento do projeto, deve ser descrito passo-a-passo como o desenvolvedor de
 
 ## Repositórios
 - [Parcial 1](https://classroom.github.com/a/RM1yLssV)
-- [Parcial 2](https://classroom.github.com/a/Qk3Q6DXl)
+- [Parcial 2](https://classroom.github.com/a/cVinkKQ5)
 - Final 
 
 
