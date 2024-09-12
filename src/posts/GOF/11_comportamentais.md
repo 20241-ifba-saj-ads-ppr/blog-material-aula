@@ -20,7 +20,17 @@ O padrão [Chain of Responsibility] fornece um acoplamento ainda mais fraco. Ele
 O padrão [Observer]  define e mantém uma dependência entre objetos. O exemplo clássico do Observer está no Model/View/Controller da Smalltalk, onde todas as visões do modelo são notificadas sempre que o estado do modelo muda.
 Outros padrões comportamentais de objetos se preocupam com o encapsulamen- to de comportamento em um objeto e com a delegação de solicitações para ele. O padrão [Strategy] encapsula um algoritmo num objeto. Strategy torna fácil especificar e mudar o algoritmo que um objeto usa. O padrão [Command] encapsula uma solicitação num objeto, de maneira que possa ser passada como um parâmetro, armazenada numa lista histórica ou manipulada de outras formas. O padrão [State] encapsula os estados de um objeto, de maneira que o objeto possa mudar o seu comportamento quando o seu objeto-estado mudar. [Visitor]  encapsula comportamento que, de outra forma, seria distribuído entre classes, [Iterator] abstrai a maneira como objetos de um agregado são acessados e percorridos.
 
-
+- **Chain of Responsibility** é um padrão de projeto comportamental que permite que você passe pedidos por uma corrente de handlers. Ao receber um pedido, cada handler decide se processa o pedido ou o passa adiante para o próximo handler na corrente.
+- **Interpreter** Dada uma linguagem, definir uma representação para a sua gramática juntamente com um interpretador que usa a representação para interpretar sentenças dessa linguagem
+- **Memento** é um padrão de projeto comportamental que permite que você salve e restaure o estado anterior de um objeto sem revelar os detalhes de sua implementação.
+- **Command** Controlar as chamadas a um determinado componente, modelando cada requisição como um objeto. Permitir que as operações possam ser desfeitas, enfileiradas ou registradas.
+- **Iterator** Fornecer um modo eficiente para percorrer sequencialmente os elementos de uma coleção, sem que a estrutura interna da coleção seja exposta.
+- **Mediator** Diminuir a quantidade de “ligações” entre objetos introduzindo um mediador, através do qual toda comunicação entre os objetos será realizada.
+- **Observer** Definir um mecanismo eficiente para reagir às alterações realizadas em determinados ob- jetos.
+- **State** Alterar o comportamento de um determinado objeto de acordo com o estado no qual ele se encontra.
+- **Strategy** Permitir de maneira simples a variação dos algoritmos utilizados na resolução de um de- terminado problema.
+- **Template Method** Definir a ordem na qual determinados passos devem ser realizados na resolução de um problema e permitir que esses passos possam ser realizados de formas diferentes de acordo com a situação.
+- **Visitor** Permitir atualizações específicas em uma coleção de objetos de acordo com o tipo particular de cada objeto atualizado.
 
 
 
