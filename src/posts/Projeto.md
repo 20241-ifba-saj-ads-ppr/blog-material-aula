@@ -23,6 +23,7 @@ A apresentação de cada um dos padrões utilizados no framework devem seguir a 
 
 ## Entregas
 - [Parcial 1](https://classroom.github.com/a/RM1yLssV)
+- [Parcial 2](https://classroom.github.com/a/Qk3Q6DXl)
 
 
 <!-- @include: ../includes/bib.md -->
