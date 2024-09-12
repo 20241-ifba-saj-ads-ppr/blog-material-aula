@@ -36,6 +36,20 @@ Outros padrões comportamentais de objetos se preocupam com o encapsulamen- to d
 - **Template Method** Definir a ordem na qual determinados passos devem ser realizados na resolução de um problema e permitir que esses passos possam ser realizados de formas diferentes de acordo com a situação.
 - **Visitor** Permitir atualizações específicas em uma coleção de objetos de acordo com o tipo particular de cada objeto atualizado.
 
+| Padrão                  | Aluno                                   |
+| ----------------------- | --------------------------------------- |
+| Chain of Responsibility |                                         |
+| Interpreter             | <ul><li>Leandro Costa Souza </li></ul>  |
+| Memento                 |                                         |
+| Command                 |                                         |
+| Iterator                |                                         |
+| Mediator                |                                         |
+| Observer                | <ul><li>Leandro Costa Souza </li></ul>  |
+| State                   |                                         |
+| Strategy                | <ul><li>Leandro Costa Souza ✅</li></ul> |
+| Template Method         |                                         |
+| Visitor                 |                                         |
+
 
 
 ## Entrega
