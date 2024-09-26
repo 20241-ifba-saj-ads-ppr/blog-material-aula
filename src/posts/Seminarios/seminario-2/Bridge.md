@@ -22,7 +22,6 @@ author: Brenda-Martinez YuriPepezin
 
 <!-- @include: ../../../includes/seminario-2-Brenda-Martinez/README.md -->
 
-
 ## Yuri Pêpe do Espírito Santo (20221TADSSAJ0005)
 
 [@YuriPepezin](https://github.com/YuriPepezin)

@@ -18,7 +18,6 @@ author: Arlei10 SalvadorCerqueiraJr
 
 <!-- @include: ../../../includes/seminario-2-Arlei10/README.md -->
 
-
 ## Salvador Cerqueira Júnior (20212TADSSAJ0020)
 [@SalvadorCerqueiraJr](https://github.com/SalvadorCerqueiraJr)
 

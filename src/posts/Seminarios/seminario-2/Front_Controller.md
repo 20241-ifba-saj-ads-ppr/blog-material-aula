@@ -20,4 +20,4 @@ author: JoaoAugustoMPdJ RiansFonseca
 ## Rian Silva da Fonseca (20221TADSSAJ0002)
 [@RiansFonseca](https://github.com/RiansFonseca)
 
-<!-- @include: ../../../includes/seminario-2-RiansFonseca/README-SINGLETON.md -->
+<!-- @include: ../../../includes/seminario-2-RiansFonseca/README.md -->
