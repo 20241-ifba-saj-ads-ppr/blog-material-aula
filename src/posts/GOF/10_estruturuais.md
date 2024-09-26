@@ -46,7 +46,7 @@ O [Decorator] descreve como acrescentar dinamicamente responsabilidades ao objet
 
 | Padrão           | Aluno                                                                                  |
 | ---------------- | -------------------------------------------------------------------------------------- |
-| Adapter          | <ul><li>Árlei Nóbrega Oliveira</li><li>Salvador Cerqueira Júnior</li></ul>             |
+| Adapter          | <ul><li>Árlei Nóbrega Oliveira ✅</li><li>Salvador Cerqueira Júnior✅</li></ul>             |
 | Bridge           | <ul><li>Brenda Gabriela Martinez Araújo ✅</li><li>Yuri Pêpe do Espírito Santo✅</li></ul> |
 | Composite        | <ul><li>Gabriel Ferreira Lima Brito  ✅</li></ul>                                         |
 | Decorator        | <ul><li>Gabriel Moreira Bispo Santos</li></ul>                                         |
