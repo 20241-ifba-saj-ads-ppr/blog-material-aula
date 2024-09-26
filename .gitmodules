@@ -35,3 +35,30 @@
 	path = src/includes/seminario-1-RiansFonseca
 	url = https://github.com/20241-ifba-saj-ads-ppr/seminario-1-RiansFonseca
 
+[submodule "src/includes/seminario-2-Brenda-Martinez"]
+	path = src/includes/seminario-2-Brenda-Martinez
+	url = https://github.com/20241-ifba-saj-ads-ppr/seminario-2-Brenda-Martinez
+[submodule "src/includes/seminario-2-gabrielflb"]
+	path = src/includes/seminario-2-gabrielflb
+	url = https://github.com/20241-ifba-saj-ads-ppr/seminario-2-gabrielflb
+[submodule "src/includes/seminario-2-GabrielMreira"]
+	path = src/includes/seminario-2-GabrielMreira
+	url = https://github.com/20241-ifba-saj-ads-ppr/seminario-2-GabrielMreira
+[submodule "src/includes/seminario-2-GuiSamp"]
+	path = src/includes/seminario-2-GuiSamp
+	url = https://github.com/20241-ifba-saj-ads-ppr/seminario-2-GuiSamp
+[submodule "src/includes/seminario-2-JoaoAugustoMPdJ"]
+	path = src/includes/seminario-2-JoaoAugustoMPdJ
+	url = https://github.com/20241-ifba-saj-ads-ppr/seminario-2-JoaoAugustoMPdJ
+[submodule "src/includes/seminario-2-Redror"]
+	path = src/includes/seminario-2-Redror
+	url = https://github.com/20241-ifba-saj-ads-ppr/seminario-2-Redror
+[submodule "src/includes/seminario-2-RiansFonseca"]
+	path = src/includes/seminario-2-RiansFonseca
+	url = https://github.com/20241-ifba-saj-ads-ppr/seminario-2-RiansFonseca
+[submodule "src/includes/seminario-2-SalvadorCerqueiraJr"]
+	path = src/includes/seminario-2-SalvadorCerqueiraJr
+	url = https://github.com/20241-ifba-saj-ads-ppr/seminario-2-SalvadorCerqueiraJr
+[submodule "src/includes/seminario-2-YuriPepezin"]
+	path = src/includes/seminario-2-YuriPepezin
+	url = https://github.com/20241-ifba-saj-ads-ppr/seminario-2-YuriPepezin
