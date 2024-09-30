@@ -72,4 +72,8 @@
 	path = src/includes/seminario-2-LuisMiguelADS
 	url = https://github.com/20241-ifba-saj-ads-ppr/seminario-2-LuisMiguelADS
 
+[submodule "src/includes/seminario-2-zevictoros"]
+	path = src/includes/seminario-2-zevictoros
+	url = https://github.com/20241-ifba-saj-ads-ppr/seminario-2-zevictoros
+
 
