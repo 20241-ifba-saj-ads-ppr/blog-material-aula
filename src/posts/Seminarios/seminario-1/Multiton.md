@@ -65,3 +65,26 @@ public enum Configuracao {
     
 }
 ```
+
+## João Augusto
+<figure>
+  @startuml
+class Reino {
+    - static Reino[] instances = new Reino[3]
+    - String nome
+    - Reino(String nome)
+    + static Reino getInstance(int index) 
+    + String getNome() 
+}
+
+Reino : - instances
+Reino : - nome
+Reino : + getInstance(index)
+Reino : + getNome()
+
+Reino --> Reino : "getInstance(0) <<Norte>>"
+Reino --> Reino : "getInstance(1) <<Sul>>"
+Reino --> Reino : "getInstance(2) <<Oeste>>"
+@enduml
+
+</figure>
