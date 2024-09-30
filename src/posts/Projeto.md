@@ -1,6 +1,6 @@
 ---
 icon: edit
-date: 2024-08-14 21:30:00.00 -3
+date: 2024-09-30 21:30:00.00 -3
 tag:
   - framwork
 category:
@@ -32,7 +32,7 @@ No documento do projeto, deve ser descrito passo-a-passo como o desenvolvedor de
 ## Repositórios
 - [Parcial 1](https://classroom.github.com/a/RM1yLssV)
 - [Parcial 2](https://classroom.github.com/a/cVinkKQ5)
-- Final 
+- [Final](https://classroom.github.com/a/SkBJK2KW) 
 
 
 

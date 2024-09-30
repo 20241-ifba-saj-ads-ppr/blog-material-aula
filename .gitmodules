@@ -35,6 +35,11 @@
 	path = src/includes/seminario-1-RiansFonseca
 	url = https://github.com/20241-ifba-saj-ads-ppr/seminario-1-RiansFonseca
 
+
+
+[submodule "src/includes/seminario-2-Arlei10"]
+	path = src/includes/seminario-2-Arlei10
+	url = https://github.com/20241-ifba-saj-ads-ppr/seminario-2-Arlei10
 [submodule "src/includes/seminario-2-Brenda-Martinez"]
 	path = src/includes/seminario-2-Brenda-Martinez
 	url = https://github.com/20241-ifba-saj-ads-ppr/seminario-2-Brenda-Martinez
