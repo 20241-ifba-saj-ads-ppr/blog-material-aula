@@ -67,3 +67,9 @@
 [submodule "src/includes/seminario-2-YuriPepezin"]
 	path = src/includes/seminario-2-YuriPepezin
 	url = https://github.com/20241-ifba-saj-ads-ppr/seminario-2-YuriPepezin
+
+[submodule "src/includes/seminario-2-LuisMiguelADS"]
+	path = src/includes/seminario-2-LuisMiguelADS
+	url = https://github.com/20241-ifba-saj-ads-ppr/seminario-2-LuisMiguelADS
+
+
