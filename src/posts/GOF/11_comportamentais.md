@@ -36,19 +36,19 @@ Outros padrões comportamentais de objetos se preocupam com o encapsulamen- to d
 - **Template Method** Definir a ordem na qual determinados passos devem ser realizados na resolução de um problema e permitir que esses passos possam ser realizados de formas diferentes de acordo com a situação.
 - **Visitor** Permitir atualizações específicas em uma coleção de objetos de acordo com o tipo particular de cada objeto atualizado.
 
-| Padrão                  | Aluno                                   |
-| ----------------------- | --------------------------------------- |
-| Chain of Responsibility | <ul><li>Gabriel M </li></ul>   |
-| Interpreter             | <ul><li>Leandro Costa Souza ✅</li></ul>  |
-| Memento                 |          <ul><li>Yuri✅ </li></ul>                               |
-| Command                 |  <ul><li>Gabriel F </li><li>Arlei </li></ul>                                       |
-| Iterator                |        <ul><li>Rian </li></ul>                                 |
-| Mediator                |    <ul><li>Guilherme </li></ul>                                     |
-| Observer                | <ul><li>Leandro Costa Souza ✅</li><li>Pedro ✅</li></ul>  |
-| State                   |                <ul><li>Brenda ✅</li></ul>                         |
-| Strategy                | <ul><li>Leandro Costa Souza ✅</li></ul> |
-| Template Method         |      <ul><li>Luis </li></ul>                                   |
-| Visitor                 |   <ul><li>João A </li> <li>Salvador </li> </ul>                                      |
+| Padrão                  | Aluno                                                   |
+| ----------------------- | ------------------------------------------------------- |
+| Chain of Responsibility | <ul><li>Gabriel M ✅ </li></ul>                          |
+| Interpreter             | <ul><li>Leandro Costa Souza ✅</li></ul>                 |
+| Memento                 | <ul><li>Yuri✅ </li></ul>                                |
+| Command                 | <ul><li>Gabriel F ✅  </li><li>Arlei ✅ </li></ul>        |
+| Iterator                | <ul><li>Rian ✅ </li></ul>                               |
+| Mediator                | <ul><li>Guilherme ✅ </li></ul>                          |
+| Observer                | <ul><li>Leandro Costa Souza ✅</li><li>Pedro ✅</li></ul> |
+| State                   | <ul><li>Brenda ✅</li></ul>                              |
+| Strategy                | <ul><li>Leandro Costa Souza ✅</li></ul>                 |
+| Template Method         | <ul><li>Luis ✅ </li></ul>                               |
+| Visitor                 | <ul><li>João A ✅ </li> <li>Salvador </li> </ul>         |
 
 
 

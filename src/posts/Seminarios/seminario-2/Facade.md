@@ -15,6 +15,6 @@ author: LuisMiguelADS
 ## Guilherme Sampaio Oliveira (20221TADSSAJ0011)
 [@GuiSamp](https://github.com/GuiSamp)
 
-<!-- @include: ../../../includes/seminario-2-GuiSamp/README.md -->
 
+<!-- @include: ../../../includes/seminario-2-GuiSamp/README.md -->
 

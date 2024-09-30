@@ -14,7 +14,6 @@ author: Brenda-Martinez YuriPepezin
 # Bridge
 
 
-
 ## Brenda Gabriela Martinez Araújo (20221TADSSAJ0001) 
 
 [@Brenda-Martinez](https://github.com/Brenda-Martinez)
