@@ -23,3 +23,22 @@ author: JoaoAugustoMPdJ, SalvadorCerqueiraJr
 [@SalvadorCerqueiraJr](https://github.com/SalvadorCerqueiraJr)
 
 <!-- @include: ../../../includes/seminario-1-SalvadorCerqueiraJr/README.md -->
+
+## Pedro Carlos
+
+```mermaid
+classDiagram
+    class SwitchObjectPool {
+        - List<Roteador> objetosDisponiveis
+        - List<Roteador> objetosEmUso
+        + ObjetoReusavel coletarObjeto()
+        + void liberarObjeto(Roteador roteador)
+        + int objetosQuantDisponivel()
+    }
+
+    class Roteador {
+        + void rotear()
+    }
+
+    SwitchObjectPool --> Roteador : "gerência"
+```
