@@ -65,3 +65,40 @@ public enum Configuracao {
     
 }
 ```
+
+
+## Yuri Pêpe
+
+```java
+
+public enum Dificuldade {
+    FACIL("Fácil", 1),
+    MEDIO("Médio", 2),
+    DIFICIL("Difícil", 3);
+
+    private final String nome;
+    private final int nivel;
+
+  
+    private Dificuldade(String nome, int nivel) {
+        this.nome = nome;
+        this.nivel = nivel;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public int getNivel() {
+        return nivel;
+    }
+
+    public static void main(String[] args) {
+      
+        for (Dificuldade dificuldade : Dificuldade.values()) {
+            System.out.println("Nome: " + dificuldade.getNome() + ", Nível: " + dificuldade.getNivel());
+        }
+    }
+}
+```
+
