@@ -75,3 +75,47 @@ ExcelRelatorioFactory --> RelatorioEmExcel : creates >
 ```
 
 </figure>
+
+## Yuri Pêpe
+<figure>
+
+```mermaid
+classDiagram
+    class Notificacao {
+        <<interface>>
+        +enviar(mensagem: String) void
+    }
+
+    class EmailNotificacao {
+        +enviar(mensagem: String) void
+    }
+
+    class SMSNotificacao {
+        +enviar(mensagem: String) void
+    }
+
+    class NotificacaoFactory {
+        <<abstract>>
+        +criarNotificacao() Notificacao
+        +enviarNotificacao(mensagem: String) void
+    }
+
+    class EmailNotificacaoFactory {
+        +criarNotificacao() EmailNotificacao
+    }
+
+    class SMSNotificacaoFactory {
+        +criarNotificacao() SMSNotificacao
+    }
+
+    Notificacao <|.. EmailNotificacao
+    Notificacao <|.. SMSNotificacao
+    NotificacaoFactory <|-- EmailNotificacaoFactory
+    NotificacaoFactory <|-- SMSNotificacaoFactory
+
+    NotificacaoFactory o-- Notificacao : "cria"
+    EmailNotificacaoFactory o-- EmailNotificacao : "cria"
+    SMSNotificacaoFactory o-- SMSNotificacao : "cria"
+
+```
+<figure>
