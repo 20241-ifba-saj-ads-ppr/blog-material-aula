@@ -74,4 +74,44 @@ ExcelRelatorioFactory --> RelatorioEmExcel : creates >
 
 ```
 
+</figure> 
+
+## Pedro Carlos
+
+<figure>
+
+```mermaid
+classDiagram
+   class ClasseFactory {
+    <<Abstract>>
+    gerarSkills() void
+}
+
+    class Skill{
+    <<Interface>>
+    listarSkills()
+    }
+
+    class SkillGuerreiro {
+        skills()
+    }
+    
+    class SkillMago {
+       skills()
+    }
+
+    Skill <|-- SkillGuerreiro
+    Skill <|-- SkillMago
+
+   class Personagem {
+        <<Abstract>>
+        nome: String
+        Classe() void
+    }
+
+
+    Personagem --> ClasseFactory
+    ClasseFactory --> Skill
+```
+
 </figure>
