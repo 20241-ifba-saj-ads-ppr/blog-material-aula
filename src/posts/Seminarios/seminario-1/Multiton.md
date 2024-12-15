@@ -65,3 +65,6 @@ public enum Configuracao {
     
 }
 ```
+
+
+[![](https://mermaid.ink/img/pako:eNpdUMkKwjAQ_ZUyJ8X6A0EEFxAPPQmechmSsQ1tk5JMDqX0301rXXAus7w3b5YBlNMEAlSDIZwNlh5baaXNks217I6N0cjG2VOihuGFTbY1NjBaRUFkBXa7mvr8n77_oZ-R8YiBDiq1rNZfZJNk2KjsQnxdJN_wCDm05Fs0Om05D5fAFbUkQaRQo68lSDvxMLK79VaBYB8pB-9iWYF4YBNSFru0Fi0nfqqkDTtfLE-Y3PgEYr5aAA?type=png)](https://mermaid.live/edit#pako:eNpdUMkKwjAQ_ZUyJ8X6A0EEFxAPPQmechmSsQ1tk5JMDqX0301rXXAus7w3b5YBlNMEAlSDIZwNlh5baaXNks217I6N0cjG2VOihuGFTbY1NjBaRUFkBXa7mvr8n77_oZ-R8YiBDiq1rNZfZJNk2KjsQnxdJN_wCDm05Fs0Om05D5fAFbUkQaRQo68lSDvxMLK79VaBYB8pB-9iWYF4YBNSFru0Fi0nfqqkDTtfLE-Y3PgEYr5aAA)
