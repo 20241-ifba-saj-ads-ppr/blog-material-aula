@@ -79,3 +79,65 @@ MagoFactory --> Cajado : cria >
 
 ```
 </figure>
+
+## Pedro Carlos
+
+```mermaid
+classDiagram
+
+    class VeiculosFactory {
+        <<Interface>>
+        +criarCarro() Carro
+        +criarMoto() Moto
+    }
+
+    class CarroFactory {
+        <<abstract>>
+        +criarChassi() Chassi
+        +criarMotor() Motor
+    }
+
+    class MotoFactory {
+        <<abstract>>
+        +criarChassi() Chassi
+        +criarMotor() Motor
+    }
+
+    VeiculosFactory <|-- CarroFactory
+    VeiculosFactory <|-- MotoFactory
+
+    class Chassi {
+        <<Interface>>
+        descricao(): String
+    }
+
+    class Motor {
+        <<Interface>>
+        descricao(): String
+    }
+
+    class ChassiFechado{
+        descricao(): String
+    }
+
+    class ChassiAberto{
+        descricao(): String
+    }
+
+    class MotorMil{
+        descricao(): String
+    }
+
+    class MotorDuzentos{
+        descricao(): String
+    }
+
+    CarroFactory --> ChassiFechado : cria
+    CarroFactory --> MotorMil : cria
+    MotoFactory --> ChassiAberto : cria
+    MotoFactory --> MotorDuzentos : cria
+    Chassi  --|> ChassiFechado
+    Chassi  --|> ChassiAberto
+    Motor --|> MotorMil
+    Motor --|> MotorDuzentos
+```
