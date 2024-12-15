@@ -23,3 +23,27 @@ author: GuiSamp, RiansFonseca
 
 <!-- @include: ../../../includes/seminario-1-RiansFonseca/README-SINGLETON.md -->
 
+## Yuri Pêpe
+
+<figure>
+  
+```mermaid
+classDiagram
+    class Pontuacao {
+        <<singleton>>
+        -instanciaUnica: Pontuacao
+        -pontos: int
+        +getInstancia(): Pontuacao
+        +adicionarPontos(pontos: int): void
+        +getPontos(): int
+    }
+
+    class Jogador {
+        +jogar(): void
+    }
+
+    Jogador o-- Pontuacao : "usa"
+```
+</figure>
+
+
